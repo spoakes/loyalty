@@ -1,0 +1,17 @@
+<apex:page controller="ContactFriendController">
+    <apex:form >
+        <apex:pageBlock title="{!$Label.ContactFriendsTitle}" id="contacts">
+            <apex:pageMessages />
+            <apex:pageBlockTable value="{!contacts}" var="contact">
+                <apex:column value="{!contact.Salutation}"/>
+                <apex:column value="{!contact.Name}"/>
+                <apex:column value="{!contact.Gender__c}"/>
+                <apex:column >
+                    <apex:commandLink value="{!$Label.ContactFriendsMarkUnfriendly}" action="{!markUnfriendly}">
+                        <apex:param name="selectedContactId" value="{!contact.Id}" assignTo="{!selectedContactId}"/>
+                    </apex:commandLink>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
