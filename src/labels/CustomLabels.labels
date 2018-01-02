@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ContactFieldNotAccessible</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No read access to contact field.</shortDescription>
+        <value>You do not have permission to access Contact {0}.</value>
+    </labels>
+    <labels>
+        <fullName>ContactFriendCalloutFailure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Callout to remote service failed.</shortDescription>
+        <value>Failed to retrieve customer details from remote service: {0}</value>
+    </labels>
+    <labels>
+        <fullName>ContactFriendsMarkUnfriendly</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Friends Mark Unfriendly link title</shortDescription>
+        <value>Mark Unfriendly</value>
+    </labels>
+    <labels>
+        <fullName>ContactFriendsTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Friends page title</shortDescription>
+        <value>Our Friends</value>
+    </labels>
+    <labels>
+        <fullName>ContactLoyaltyStatusNotUpdateable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No edit access to contact loyalty status.</shortDescription>
+        <value>You do not have permission to edit Contact Loyalty Status.</value>
+    </labels>
+    <labels>
+        <fullName>ContactNotAccessible</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No read access to contacts.</shortDescription>
+        <value>You do not have permission to access Contacts.</value>
+    </labels>
+    <labels>
+        <fullName>ContactNotUpdateable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No edit access to contacts.</shortDescription>
+        <value>You do not have permission to edit Contacts.</value>
+    </labels>
+</CustomLabels>
